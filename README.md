@@ -1,53 +1,49 @@
-# brt digital marketing site
+# brtdigital
 
-Single-page marketing website built with React + TypeScript + Vite, Tailwind CSS, Framer Motion, and lightweight accessible UI primitives.
+This repository contains the source code for my personal / business website.
 
-## Setup
+## About Me
 
-```bash
-npm install
-npm run dev
-```
+Hi, I'm **Baratha Aberathne**, a Backend Software Engineer based in the UK.
 
-## Build
+My main technical focus includes:
 
-```bash
-npm run build
-npm run preview
-```
+- Go (Golang) backend development, JAVA, C#, DevOps
+- REST API design
+- Microservices architecture
+- AWS cloud infrastructure
+- Data platforms and large-scale datasets
+- CI/CD and automated testing
 
-## Deploy to GitHub Pages
+I enjoy building reliable systems, learning new technologies, and creating tools that solve real-world problems.
 
-1. Ensure the GitHub Pages source is set to the `gh-pages` branch (Settings -> Pages).
-2. Install dependencies and deploy:
+## About This Project
 
-```bash
-npm install
-npm run deploy
-```
+This repository hosts the website for **brtdigital**, which will serve as a place to showcase:
 
-The site will publish to `https://<username>.github.io/brtdigital/`.
+- Personal projects
+- Software engineering work
+- Technical write-ups
+- Business or digital services
 
-## Content editing
+The site is deployed using GitHub Pages.
 
-Update these files for business content:
+## Tech Stack
 
-- `src/data/services.ts`
-- `src/data/projects.ts`
-- `src/data/testimonials.ts`
+This project currently uses:
 
-## Project structure
+- React + Type Script
 
-- `src/components`: reusable UI components (`Button`, `Card`, `Section`, `Nav`, `Accordion`, `Toast`)
-- `src/sections`: page sections (`Hero`, `Services`, `Work`, `Process`, `About`, `Contact`, `Footer`)
-- `src/data`: site content data sources
-- `src/lib`: helpers (`utils`, `motion`, `submitLead`)
+Future improvements may include React and additional backend integrations.
 
-## Contact form wiring (EmailJS / API)
+## Live Website
 
-The form currently calls `submitLead()` in `src/lib/submitLead.ts` and logs the payload. Replace that function with:
+You can view the site here:
 
-1. EmailJS client call (browser-side), or
-2. `fetch('/api/leads', { method: 'POST', body: JSON.stringify(payload) })` to your backend.
+https://barathaabeyrathne.github.io/brtdigital/
 
-Keep the existing return shape (`{ ok: boolean }`) so UI behavior remains unchanged.
+## Contact
+
+If you'd like to connect or collaborate, feel free to reach out.
+
+GitHub: https://github.com/barathaabeyrathne
