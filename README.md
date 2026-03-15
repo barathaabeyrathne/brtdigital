@@ -39,6 +39,3 @@ The form currently calls `submitLead()` in `src/lib/submitLead.ts` and logs the 
 2. `fetch('/api/leads', { method: 'POST', body: JSON.stringify(payload) })` to your backend.
 
 Keep the existing return shape (`{ ok: boolean }`) so UI behavior remains unchanged.
-# brtdigital
-# brtdigital
-# brtdigital
