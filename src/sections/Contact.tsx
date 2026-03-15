@@ -101,13 +101,13 @@ export function Contact() {
         <div className="space-y-4 rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 text-sm text-zinc-300">
           <h3 className="text-lg font-medium text-white">Direct contact</h3>
           <p>Based in London, serving startup founders and local businesses across the UK. Expect a response within 1 business day.</p>
-          <ContactRow icon={<Mail className="h-4 w-4" />} label="Email" value="hello@brtdigital.com" />
-          <ContactRow icon={<Phone className="h-4 w-4" />} label="Phone" value="+44 20 0000 0000" />
+          <ContactRow icon={<Mail className="h-4 w-4" />} label="Email" value="barathaaberathne@gmail.com" />
+          <ContactRow icon={<Phone className="h-4 w-4" />} label="Phone" value="+447501996563" />
           <ContactRow icon={<MapPin className="h-4 w-4" />} label="Location" value="London, United Kingdom" />
           <div className="pt-3">
             <p className="mb-2 text-xs uppercase tracking-[0.2em] text-zinc-500">Social</p>
             <div className="flex gap-4">
-              <a className="link-underline" href="#" aria-label="LinkedIn">
+              <a className="link-underline" href="https://www.linkedin.com/in/baratha-aberathne-2965b484/" aria-label="LinkedIn">
                 LinkedIn
               </a>
               <a className="link-underline" href="#" aria-label="Instagram">
