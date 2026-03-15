@@ -16,6 +16,18 @@ npm run build
 npm run preview
 ```
 
+## Deploy to GitHub Pages
+
+1. Ensure the GitHub Pages source is set to the `gh-pages` branch (Settings -> Pages).
+2. Install dependencies and deploy:
+
+```bash
+npm install
+npm run deploy
+```
+
+The site will publish to `https://<username>.github.io/brtdigital/`.
+
 ## Content editing
 
 Update these files for business content:
